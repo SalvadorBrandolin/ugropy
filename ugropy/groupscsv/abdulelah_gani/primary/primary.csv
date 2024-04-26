@@ -30,14 +30,14 @@ aC-C≡C|[c][CH0;!R]#[CH0;!R]||"{""aC-C≡C"": 1, ""C≡C"": -1, ""aC except as 
 OH|[OH]||"{""OH"": 1}"|n|17.007
 aC-OH|[cH0][OH]||"{""aC-OH"": 1, ""OH"": -1, ""aC except as above"": -1}"|y|29.018
 COOH|[CH0](*)(=O)(-[OH])|[CH0](=O)(-[OH])|"{""COOH"": 1, ""OH"": -1}"|n|45.017
-aC-COOH|[cH0][CH0](*)(=O)(-[OH])|[ch0][CH0](=O)(-[OH])|"{""COOH"": 1, ""OH"": -1}"|n|57.028
-CH3CO|[CH3]C(=O)([#6,Si])|[CH3]C(=O)|"{""CH3CO"": 1, ""CH3"" : -1}"|n|43.045
-CH2CO|[CH2]C(=O)[$([#6,Si]);!$([CH3])]|[CH2]C(=O)|"{""CH2CO"": 1, ""CH2"": -1}"|n|42.037
-CHCO
-CCO
-aC-CO
-CHO
-aC-CHO
+aC-COOH|[cH0][CH0](*)(=O)(-[OH])|[ch0][CH0](=O)(-[OH])|"{""aC-COOH"": 1, ""COOH"": -1, ""aC except as above"": -1}"|y|57.028
+CH3CO|[CH3]C(=O)[$([#6,Si]);!$([cH0])]|[CH3]C(=O)|"{""CH3CO"": 1, ""CH3"" : -1}"|n|43.045
+CH2CO|[CH2]C(=O)[$([#6,Si]);!$([cH0]);!$([CH3])]|[CH2]C(=O)|"{""CH2CO"": 1, ""CH2"": -1}"|n|42.037
+CHCO|[CH]C(=O)[$([#6,Si]);!$([cH0]);!$([CH3]);!$([CH2])]|[CH]C(=O)|"{""CHCO"": 1, ""CH"": -1}"|n|41.028841
+CCO|[CH0]C(=O)[$([#6,Si]);!$([cH0]);!$([CH3]);!$([CH2]);!$([CH])]|[CH0]C(=O)|"{""CCO"": 1, ""C"": -1}"|n|40.021
+aC-CO|[cH0]C(=O)[$([#6,Si])]|[cH0]C(=O)|"{""aC-CO"": 1, ""aC except as above"": -1}"|n|40.021
+CHO|[CH](=O)([#6,Si])|[CH](=O)|"{""CHO"": 1}"|n|29.018
+aC-CHO|[cH0][CH](=O)([#6,Si])|[cH0][CH](=O)|"{""aC-CHO"": 1, ""CHO"": -1, ""aC except as above"": -1}"|y|41.029
 CH3COO
 CH2COO
 CHCOO
