@@ -1,0 +1,221 @@
+group|detection_smarts|smarts|contribute|composed|molecular_weight
+CH3|[CX4H3]||"{""CH3"": 1}"|n|15.035
+CH2|[CX4H2;!R]||"{""CH2"": 1}"|n|14.027
+CH|[CX4H;!R]||"{""CH"": 1}"|n|13.019
+C|[CX4H0]||"{""C"": 1}"|n|12.011
+CH2=CH|[CH2]=[CH]||"{""CH2=CH"": 1}"|n|27.046
+CH=CH|[CH;!R]=[CH;!R]||"{""CH=CH"": 1}"|n|26.038
+CH2=C|[CH2]=[CH0;!R]||"{""CH2=C"": 1}"|n|26.038
+CH=C|[CH;!R]=[CH0;!R]||"{""CH=C"": 1}"|n|25.03
+C=C|[CH0;!R]=[CH0;!R]||"{""C=C"": 1}"|n|24.022
+CH2=C=CH|[CH2]=[CH0]=[CH]||"{""CH2=C=CH"": 1, ""CH2=C"": -1, ""CH=C"": -1}"|n|39.0564
+CH2=C=C|[CH2]=[CH0]=[CH0]||"{""CH2=C=C"": 1, ""CH2=C"": -1, ""C=C"": -1}"|n|38.0486
+C=C=C|[CH0;!R]=[CH0;!R]=[CH0;!R]||"{""C=C=C"": 1, ""C=C"": -2}"|n|36.033
+CH≡C|[CH]#[CH0]||"{""CH≡C"": 1}"|n|25.0298
+C≡C|[CH0]#[CH0]||"{""C≡C"": 1}"|n|24.022
+aCH|[cH]||"{""aCH"": 1}"|n|13.019
+aC fused with aromatic ring|[cH0]([a])([a])[a]|[cH0]|"{""aC fused with aromatic ring"": 1, ""aC except as above"": -1}"|n|12.011
+aC fused with non-aromatic ring|[cH0]([a])([a])[A;R]|[cH0]|"{""aC fused with non-aromatic ring"": 1, ""aC except as above"": -1}"|n|12.011
+aC except as above|[cH0]||"{""aC except as above"": 1}"|n|12.011
+aN in aromatic ring|[n]||"{""aN in aromatic ring"": 1}"|n|14.007
+aC-CH3|[c][CX4H3]||"{""aC-CH3"": 1, ""CH3"": -1, ""aC except as above"": -1}"|y|27.046
+aC-CH2|[c][CX4H2;!R]||"{""aC-CH2"": 1, ""CH2"": -1, ""aC except as above"": -1}"|y|26.038
+aC-CH|[c][CX4H;!R]||"{""aC-CH"": 1, ""CH"": -1, ""aC except as above"": -1}"|y|25.03
+aC-C|[c][CX4H0;!R]||"{""aC-C"": 1, ""C"": -1, ""aC except as above"": -1}"|y|24.0222
+aC-CH=CH2|[c][CH;!R]=[CH2]||"{""aC-CH=CH2"": 1, ""CH2=CH"": -1, ""aC except as above"": -1}"|y|39.0564
+aC-CH=CH|[c][CH;!R]=[CH;!R]||"{""aC-CH=CH"": 1, ""CH=CH"": -1, ""aC except as above"": -1}"|y|38.0486
+aC-C=CH2|[c][CH0;!R]=[CH2]||"{""aC-C=CH2"": 1, ""CH2=C"": -1, ""aC except as above"": -1}"|y|38.0486
+aC-C≡CH|[c][CH0;!R]#[CH]||"{""aC-C≡CH"": 1, ""CH≡C"": -1, ""aC except as above"": -1}"|y|37.0408
+aC-C≡C|[c][CH0;!R]#[CH0;!R]||"{""aC-C≡C"": 1, ""C≡C"": -1, ""aC except as above"": -1}"|y|36.033
+OH|[OH]||"{""OH"": 1}"|n|17.007
+aC-OH|[cH0][OH]||"{""aC-OH"": 1, ""OH"": -1, ""aC except as above"": -1}"|y|29.018
+COOH|[CH0](*)(=O)(-[OH])|[CH0](=O)(-[OH])|"{""COOH"": 1, ""OH"": -1}"|n|45.017
+aC-COOH|[cH0][CH0](*)(=O)(-[OH])|[ch0][CH0](=O)(-[OH])|"{""COOH"": 1, ""OH"": -1}"|n|57.028
+CH3CO|[CH3]C(=O)([#6,Si])|[CH3]C(=O)|"{""CH3CO"": 1, ""CH3"" : -1}"|n|43.045
+CH2CO|[CH2]C(=O)[$([#6,Si]);!$([CH3])]|[CH2]C(=O)|"{""CH2CO"": 1, ""CH2"": -1}"|n|42.037
+CHCO
+CCO
+aC-CO
+CHO
+aC-CHO
+CH3COO
+CH2COO
+CHCOO
+CCOO
+HCOO
+aC-COO
+aC-OOCH
+aC-OOC
+COO except as above
+CH3O
+CH2O
+CH-O
+C-O
+aC-O
+CH2NH2
+CHNH2
+CNH2
+CH3NH
+CH2NH
+CHNH
+CH3N
+CH2N
+aC-NH2
+aC-NH
+aC-N
+NH2 except as above
+CH=N
+C=N
+CH2CN
+CHCN
+CCN
+aC-CN
+CN except as above
+CH2NCO
+CHNCO
+CNCO
+aC-NCO
+CH2NO2
+CHNO2
+CNO2
+aC-NO2
+NO2 except as above
+ONO
+ONO2
+HCON(CH2)2
+HCONHCH2
+CONH2
+CONHCH3
+CONHCH2
+CON(CH3)2
+CONCH3CH2
+CON(CH2)2
+CONHCO
+CONCO
+aC-CONH2
+aC-NH(CO)H
+aC-N(CO)H
+aC-CONH
+aC-NHCO
+aC-(N)CO
+NHCONH
+NH2CONH
+NH2CON
+NHCON
+NCON
+aC-NHCONH2
+aC-NHCONH
+NHCO except as above
+CH2Cl
+CHCl
+CCl
+CHCl2
+CCl2
+CCl3
+CH2F
+CHF
+CF
+CHF2
+CF2
+CF3
+CCl2F
+HCClF
+CClF2
+aC-Cl
+aC-F
+aC-I
+aC-Br
+-I except as above
+-Br except as above
+-F except as above
+-Cl except as above
+CHNOH
+CNOH
+aC-CHNOH
+OCH2CH2OH
+OCHCH2OH
+OCH2CHOH
+-O-OH
+CH2SH
+CHSH
+CSH
+aC-SH
+-SH except as above
+CH3S
+CH2S
+CHS
+CS
+aC-S-
+SO
+SO2
+SO3 (sulfite)
+SO3 (Sulfonate)
+SO4 (Sulfate)
+aC-SO
+aC-SO2
+PH (phosphine)
+P (Phospine)
+PO3 (Phospite)
+PHO3 (Phosponate)
+PO3 (Phosponate)
+PHO4 (Phospate)
+PO4 (Phospate)
+aC-PO4
+aC-P
+CO3 (Carbonate)
+C2H3O
+C2H2O
+C2HO
+CH2 (cyclic)
+CH (cyclic)
+C (cyclic)
+CH=CH (cyclic)
+CH=C (cyclic)
+C=C (cyclic)
+CH2=C (cyclic)
+NH (cyclic)
+N (cyclic)
+CH=N (cyclic)
+C=N (cyclic)
+O (cyclic)
+CO (cyclic)
+S (cyclic)
+SO2 (cyclic)
+>NH
+-O-
+-S-
+>CO
+PO2
+CH-N
+SiHO
+SiO
+SiH2
+SiH
+Si
+(CH3)3N
+N=N
+Ccyclic=N-
+Ccyclic=CH-
+Ccyclic=NH
+N=O
+Ccyclic=C
+P=O
+N=N
+C=NH
+>C=S
+aC-CON
+aC=O
+aN-
+-Na
+-K
+HCONH
+CHOCH
+C2O
+SiH3
+SiH2O
+CH=C=CH
+CH=C=C
+OP(=S)O
+R
+CF2cyclic
+CFcyclic
