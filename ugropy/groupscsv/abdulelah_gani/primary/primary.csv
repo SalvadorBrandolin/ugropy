@@ -64,37 +64,37 @@ aC-NH2|[cH0][NH2]||"{""aC-NH2"": 1, ""C"": -1}"|n|28.0342
 aC-NH|[cH0][NH][$([#6,Si;!$([CH](=O));!$(C(=O)[!N])])]|[cH0][NH]|"{""aC-NH"": 1}"|n|27.0262
 aC-N|[cH0][NH0][$([#6,Si;!$([CH](=O));!$(C(=O)[!N])])]|[cH0][NH0]|"{""aC-N"": 1}"|n|26.0184
 NH2 except as above|[NH2]||"{""NH2 except as above"": 1}"|n|16.0226
-CH=N
-C=N
-CH2CN
-CHCN
-CCN
-aC-CN
-CN except as above
-CH2NCO
-CHNCO
-CNCO
-aC-NCO
+CH=N|[CH;!R]=[NH0]||"{""CH=N"": 1}"|n|27.0258
+C=N|[CH0;!R]=[NH0]||"{""C=N"": 1}"|n|26.018
+CH2CN|[CH2;!R][C]#[N]||"{""CH2CN"": 1, ""CH2"": -1, ""CN except as above"": -1}"|y|40.045
+CHCN|[CH;!R][C]#[N]||"{""CHCN"": 1, ""CH"": -1, ""CN except as above"": -1}"|y|39.0372
+CCN|[CH0;!R][C]#[N]||"{""CCN"": 1, ""C"": -1, ""CN except as above"": -1}"|y|38.0294
+aC-CN|[cH0][C]#[N]||"{""aC-CN"": 1, ""aC except as above"": -1, ""CN except as above"": -1}"|y|38.0294
+CN except as above|[C;!R]#[N]||"{""CN except as above"": 1}"|n|26.018
+CH2NCO|[CH2][NH0]=[C]=[O]||"{""CH2NCO"": 1, ""CH2"": -1}"|n|56.0436
+CHNCO|[CH][NH0]=[C]=[O]||"{""CHNCO"": 1, ""CH"": -1}"|n|55.0358
+CNCO|[CH0][NH0]=[C]=[O]||"{""CNCO"": 1, ""C"": -1}"|n|54.028
+aC-NCO|[cH0][NH0]=[C]=[O]||"{""aC-NCO"": 1, ""aC except as above"": -1}"|n|54.028
 CH2NO2|[CH2]N(=O)(O)||"{""CH2NO2"": 1, ""CH2"": -1, ""NO2 except as above"": -1}"|y|60.032
 CHNO2|[CH]N(=O)(O)||"{""CHNO2"": 1, ""CH"": -1}", ""NO2 except as above"": -1|y|59.024
 CNO2|[CH0]N(=O)(O)||"{""aC-NO2"": 1, ""aC except as above"": -1, ""NO2 except as above"": -1}"|y|58.016
 aC-NO2|[cH0]N(=O)(O)||"{""aC-NO2"": 1, ""aC except as above"": -1, ""NO2 except as above"": -1}"|y|58.016
-NO2 except as above|N(=O)(O)||"{""NO2 except as above""}"|n|46.005
-ONO
-ONO2
-HCON(CH2)2
-HCONHCH2
-CONH2
-CONHCH3
-CONHCH2
-CON(CH3)2
-CONCH3CH2
-CON(CH2)2
-CONHCO
-CONCO
-aC-CONH2
-aC-NH(CO)H
-aC-N(CO)H
+NO2 except as above|N(=O)(O)||"{""NO2 except as above"": 1}"|n|46.005
+ONO|[O-][NH+]=O||"{""ONO"": 1}"|n|30.006
+ONO2|[O][NH0](=O)=O||"{""ONO2"": 1}"|n|62.004
+HCON(CH2)2|[*][CH2]N([CH2][*])[CH]=O|[CH2]N([CH2])[CH]=O|"{""HCON(CH2)2"": 1, ""CH2"": -2}"|n|71.078
+HCONHCH2|[*][CH2][NH][CH]=O|[CH2][NH][CH]=O|"{""HCONHCH2"": 1, ""CH2"": -1}"|n|71.078
+CONH2|[CH0](=O)([NH2])([!O])|[CH0](=O)([NH2])|"{""CONH2"": 1}"|n|44.0326
+CONHCH3|[CH0](=O)([NH][CH3])([!O])|[CH0](=O)([NH][CH3])|"{""CONHCH3"": 1, ""CH3"": -1}"|n|58.0592
+CONHCH2|[CH0](=O)([NH][CH2])([!O])|[CH0](=O)([NH][CH2])|"{""CONHCH2"": 1, ""CH2"": -1}"|n|57.0514
+CON(CH3)2|[CH0](=O)([N]([CH3])[CH3])([!O])|[CH0](=O)([N]([CH3])[CH3])|"{""CON(CH3)2"": 1, ""CH3"": -2}"|n|72.0858
+CONCH3CH2|[CH0](=O)([N]([CH3])[CH2])([!O])|[CH0](=O)([N]([CH3])[CH2])|"{""CONCH3CH2"": 1, ""CH3"": -1, ""CH2"": -1}"|n|71.078
+CON(CH2)2|[CH0](=O)([N]([CH2])[CH2])([!O])|[CH0](=O)([N]([CH2])[CH2])|"{""CON(CH2)2"": 1, ""CH2"": -2}"|n|70.0702
+CONHCO|[CH0](=O)[NH][CH0](=O)||"{""CONHCO"": 1}"|n|71.0348
+CONCO|[CH0](=O)[NH0][CH0](=O)||"{""CONCO"": 1}"|n|70.027
+aC-CONH2|[cH0][CH0](=O)[NH2]||"{""aC-CONH2"": 1, ""aC except as above"": -1}"|n|56.0436
+aC-NH(CO)H|[cH0][NH][CH]=O||"{""aC-NH(CO)H"": 1, ""aC except as above"": -1}"|n|56.0436
+aC-N(CO)H|[cH0][NH0][CH]=O||"{""aC-N(CO)H"": 1, ""aC except as above"": -1}"|n|55.0358
 aC-CONH
 aC-NHCO
 aC-(N)CO
