@@ -95,30 +95,30 @@ CONCO|[CH0](=O)[NH0][CH0](=O)||"{""CONCO"": 1}"|n|70.027
 aC-CONH2|[cH0][CH0](=O)[NH2]||"{""aC-CONH2"": 1, ""aC except as above"": -1}"|n|56.0436
 aC-NH(CO)H|[cH0][NH][CH]=O||"{""aC-NH(CO)H"": 1, ""aC except as above"": -1}"|n|56.0436
 aC-N(CO)H|[cH0][NH0][CH]=O||"{""aC-N(CO)H"": 1, ""aC except as above"": -1}"|n|55.0358
-aC-CONH
-aC-NHCO
-aC-(N)CO
-NHCONH
-NH2CONH
-NH2CON
-NHCON
-NCON
-aC-NHCONH2
-aC-NHCONH
-NHCO except as above
-CH2Cl
-CHCl
-CCl
-CHCl2
-CCl2
-CCl3
-CH2F
-CHF
-CF
-CHF2
-CF2
-CF3
-CCl2F
+aC-CONH|[cH0][CH0](=O)[NH]||"{""aC-CONH"": 1, ""aC except as above"": -1}"|n|55.0358
+aC-NHCO|[cH0][NH][CH0](=O)||"{""aC-NHCO"": 1, ""aC except as above"": -1}"|n|55.0358
+aC-(N)CO|[cH0][NH0][CH0](=O)||"{""aC-(N)CO"": 1, ""aC except as above"": -1}"|n|54.028
+NHCONH|[NH][CH0](=O)[NH]||"{""NHCONH"": 1}"|n|58.0396
+NH2CONH|[NH2][CH0](=O)[NH]||"{""NH2CONH"": 1}"|n|59.0474
+NH2CON|[NH2][CH0](=O)[NH0]||"{""NH2CON"": 1}"|n|58.0396
+NHCON|[NH][CH0](=O)[NH0]||"{""NHCON"": 1}"|n|57.0318
+NCON|[NH0][CH0](=O)[NH0]||"{""NCON"": 1}"|n|56.0239
+aC-NHCONH2|[NH2][CH0](=O)[NH][cH0]||"{""aC-NHCONH2"": 1, ""aC except as above"": -1, ""NH2CONH"": -1}"|y|71.0584
+aC-NHCONH|[NH][CH0](=O)[NH][cH0]||"{""aC-NHCONH"": 1, ""aC except as above"": -1, ""NHCONH"": -1}"|y|70.0506
+NHCO except as above|[NH][CH0]=O||"{""NHCO except as above"": 1}"|n|43.0248
+CH2Cl|[CH2](Cl)([!Cl])|[CH2][Cl]|"{""CH2Cl"": 1, ""CH2"": -1}"|n|49.48
+CHCl|[CH](Cl)([!Cl])([!Cl])|[CH][Cl]|"{""CHCl"": 1, ""CH"": -1}"|n|48.472
+CCl|[CH0](Cl)([!Cl])([!Cl])([!Cl])|[CH0][Cl]|"{""CCl"": 1, ""C"": -1}"|n|47.464
+CHCl2|[CH](Cl)(Cl)([!Cl])|[CH](Cl)(Cl)|"{""CHCl2"": 1, ""CH"": -1}"|n|83.925
+CCl2|[CH0](Cl)(Cl)([!Cl])([!Cl])|[CH0](Cl)(Cl)|"{""CCl2"": 1, ""C"": -1}"|n|82.917
+CCl3|[CH0](Cl)(Cl)(Cl)([!Cl])|[CH0](Cl)(Cl)(Cl)|"{""CCl3"": 1, ""C"": -1}"|n|118.37
+CH2F|[CH2][F]||"{""CH2F"": 1, ""CH2"": -1}"|n|33.0246
+CHF|[CH][F]||"{""CHF"": 1, ""CH"": -1}"|n|32.0168
+CF|[CH0][F]||"{""CF"": 1, ""C"": -1}"|n|31.009
+CHF2|[CH]([F])[F]||"{""CHF2"": 1, ""CH"": -1}"|n|51.0148
+CF2|[CH0]([F])[F]||"{""CF2"": 1, ""C"": -1}"|n|50.007
+CF3|[CH0]([F])([F])[F]||"{""CF3"": 1, ""C"": -1}"|n|70.0128
+CCl2F|[CH0](Cl)(Cl)(F)([!Cl&!F])|[CH0](Cl)(Cl)(F)|"{""CCl2F"": 1, ""CCl2"": -1, ""CF"": -1, ""C"": 1}"|n|101.915
 HCClF
 CClF2
 aC-Cl
