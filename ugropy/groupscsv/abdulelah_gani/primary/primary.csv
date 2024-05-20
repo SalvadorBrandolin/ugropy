@@ -119,47 +119,47 @@ CHF2|[CH]([F])[F]||"{""CHF2"": 1, ""CH"": -1}"|n|51.0148
 CF2|[CH0]([F])[F]||"{""CF2"": 1, ""C"": -1}"|n|50.007
 CF3|[CH0]([F])([F])[F]||"{""CF3"": 1, ""C"": -1}"|n|70.0128
 CCl2F|[CH0](Cl)(Cl)(F)([!Cl&!F])|[CH0](Cl)(Cl)(F)|"{""CCl2F"": 1, ""CCl2"": -1, ""CF"": -1, ""C"": 1}"|n|101.915
-HCClF
-CClF2
-aC-Cl
-aC-F
-aC-I
-aC-Br
--I except as above
--Br except as above
--F except as above
--Cl except as above
-CHNOH
-CNOH
-aC-CHNOH
-OCH2CH2OH
-OCHCH2OH
-OCH2CHOH
--O-OH
-CH2SH
-CHSH
-CSH
-aC-SH
--SH except as above
-CH3S
-CH2S
-CHS
-CS
-aC-S-
-SO
-SO2
-SO3 (sulfite)
-SO3 (Sulfonate)
-SO4 (Sulfate)
-aC-SO
-aC-SO2
-PH (phosphine)
-P (Phospine)
-PO3 (Phospite)
-PHO3 (Phosponate)
-PO3 (Phosponate)
-PHO4 (Phospate)
-PO4 (Phospate)
+HCClF|[CH](Cl)(F)([!Cl&!F])|[CH](Cl)(F)|"{""HCClF"": 1, ""CHCl"": -1}"|n|67.4698
+CClF2|[CH0](Cl)(F)(F)([!Cl&!F])|[CH0](Cl)(F)(F)|"{""CCLF2"": 1, ""CCL"": -1, ""CF2"": -1, ""C"": 1}"|n|85.46
+aC-Cl|[cH0][Cl]||"{""aC-Cl"": 1, ""aC except as above"": -1, ""-Cl except as above"": -1}"|y|47.464
+aC-F|[cH0][F]||"{""aC-F"": 1, ""aC except as above"": -1, ""-F except as above"": -1}"|y|31.009
+aC-I|[cH0][I]||"{""aC-I"": 1, ""aC except as above"": -1, ""-I except as above"": -1}"|y|138.911
+aC-Br|[cH0][Br]||"{""aC-Br"": 1, ""aC except as above"": -1, ""-Br except as above"": -1}"|y|91.915
+-I except as above|[I]||"{""-I except as above"": 1}"|n|126.9
+-Br except as above|[Br]||"{""-Br except as above"": 1}"|n|79.904
+-F except as above|[F]||"{""-F except as above"": 1}"|n|18.998
+-Cl except as above|[Cl]||"{""-Cl except as above"": 1}"|n|35.453
+CHNOH|[CH]=[NH0][OH]||"{""CHNOH"": 1}"|n|44.0326
+CNOH|[CH0]=[NH0][OH]||"{""CNOH"": 1}"|n|43.0248
+aC-CHNOH|[cH0][CH]=[NH0][OH]||"{""aC-CHNOH"": 1}"|n|44.0326
+OCH2CH2OH|[OH][CH2][CH2]O[#6,Si]|[OH][CH2][CH2]O|"{""OCH2CH2OH"": 1, ""OH"": -1, ""CH2"": -1, ""CH2O"": -1}"|y|61.059
+OCHCH2OH|[OH][CH2][CH]O[#6,Si]|[OH][CH2][CH]O|"{""OCHCH2OH"": 1, ""OH"": -1, ""CHO"": -1, ""CH2"": -1}"|y|60.0512
+OCH2CHOH|[OH][CH][CH2]O[#6,Si]|[OH][CH][CH2]O|"{""OCH2CHOH"": 1, ""OH"": -1, ""CH2O"": -1, ""CH"": -1}"|y|60.0512
+-O-OH|[OH0][OH]||"{""-O-OH"": 1, ""OH"": -1, ""-SH except as above"": -1}"|y|33.0058
+CH2SH|[CH2][SH]||"{""CH2SH"": 1, ""CH2"": -1, ""-SH except as above"": -1}"|y|47.0994
+CHSH|[CH][SH]||"{""CHSH"": 1, ""CH"": -1, ""-SH except as above"": -1}"|y|46.0916
+CSH|[CH0][SH]||"{""CSH"": 1, ""C"": -1, ""-SH except as above"": -1}"|y|45.0838
+aC-SH|[cH0][SH]||"{""aC-SH"": 1, ""aC except as above"": -1, ""-SH except as above"": -1}"|y|45.0838
+-SH except as above|[SH]||"{""-SH except as above"": 1}"|n|33.0728
+CH3S|[CH3][S][#6,Si]|[CH3][S]|"{""CH3S"": 1, ""CH3"": -1}"|n|47.0994
+CH2S|[CH2][S][$([#6,Si])&!$([CH3])]|[CH2][S]|"{""CH2S"": 1, ""CH2"": -1}"|n|46.0916
+CHS|[CH][S][$([#6,Si])&!$([CH3])&!$([CH2])]|[CH][S]|"{""CHS"": 1, ""CH"": -1}"|n|45.0838
+CS|[CH0][S][$([#6,Si])&!$([CH3])&!$([CH2])]|[CH0][S]|"{""CS"": 1, ""C"": -1}"|n|44.076
+aC-S-|[cH0][S][$([#6,Si])]|[cH0][S]|"{""aC-S-"": 1, ""aC except as above"": -1}"|n|44.076
+SO|[SX3H0]=[OH0]||"{""SO"": 1}"|n|48.064
+SO2|[OH0]=[SX4H0]=[OH0]||"{""SO2"": 1}"|n|64.063
+SO3 (sulfite)|[OH0]-[SX3H0](=[OH0])-[OH0]||"{""SO3 (sulfite)"": 1}"|n|80.062
+SO3 (Sulfonate)|[OH0]-[SX4H0](=[OH0])=[OH0]||"{""SO3 (Sulfonate)"": 1}"|n|80.062
+SO4 (Sulfate)|[OH0]-[SX4H0](-[OH0])(=[OH0])=[OH0]||"{""SO4 (Sulfate)"": 1}"|n|96.061
+aC-SO|[cH0][SX3H0]=[OH0]||"{""aC-SO"": 1, ""SO"": -1, ""aC except as above"": -1}"|y|60.075
+aC-SO2|[cH0][SX4H0](=[OH0])=[OH0]||"{""aC-SO2"": 1, ""SO2"": -1, ""aC except as above"": -1}"|y|76.074
+PH (phosphine)|[PX3H]||"{""PH (phosphine)"": 1}"|n|31.9818
+P (Phospine)|[PX3H0]||"{""P (Phospine)"": 1}"|n|30.974
+PO3 (Phospite)|[PX3H0](-[OH0]-[#6])(-[OH0]-[#6])-[OH0]-[#6]|[PX3H0](-[OH0])(-[OH0])-[OH0]|"{""PO3 (Phospite)"": 1}"|n|78.971
+PHO3 (Phosponate)|[PX4H1](=[OH0])(-[OH0]-[#6])-[OH0]-[#6]|[PX3H1](=[OH0])(-[OH0])-[OH0]|"{""PHO3 (Phosponate)"": 1}"|n|79.9788
+PO3 (Phosponate)|[PX4H0](=[OH0])(-[OH0]-[#6])-[OH0]-[#6]|[PX3H0](=[OH0])(-[OH0])-[OH0]|"{""PO3 (Phosponate)"": 1}"|n|78.971
+PHO4 (Phospate)|[PX4H0](=[OH0])(-[OH1])(-[OH0]-[#6])-[OH0]-[#6]|[PX4H0](=[OH0])(-[OH1])(-[OH0])-[OH0]|"{""PHO4 (Phospate)"": 1}"|n|95.9778
+PO4 (Phospate)|[PX4H0](=[OH0])(-[OH0]-[#6])(-[OH0]-[#6])-[OH0]-[#6]|[PX4H0](=[OH0])(-[OH0])(-[OH0])-[OH0]|"{""PHO4 (Phospate)"": 1}"|n|94.97
 aC-PO4
 aC-P
 CO3 (Carbonate)
