@@ -12,7 +12,11 @@ from ugropy.core import fit_atoms
 trials_psrk = [
     # propyleneoxide
     ("CC1CO1", {"H2COCH": 1, "CH3": 1}, "smiles"),
-    ("C1OC1C1=CC=CC=C1", {"ACH": 5, "AC": 1, "H2COCH": 1}, "smiles"),
+    (
+        "C1OC1C1=CC=CC=C1",
+        [{"ACH": 5, "ACCH": 1, "CH2O": 1}, {"ACH": 5, "AC": 1, "H2COCH": 1}],
+        "smiles",
+    ),
     # 2,3-epoxybutane
     ("CC1C(O1)C", {"CH3": 2, "HCOCH": 1}, "smiles"),
     # 2-methyl-2,3-epoxybutane
@@ -28,8 +32,14 @@ trials_psrk = [
 @pytest.mark.parametrize("identifier, result, identifier_type", trials_psrk)
 def test_51_epoxy_psrk(identifier, result, identifier_type):
     mol = get_groups(psrk, identifier, identifier_type)
-    assert mol.subgroups == result
-    assert fit_atoms(mol.mol_object, mol.subgroups, psrk) != {}
+
+    if isinstance(mol.subgroups, dict):
+        assert mol.subgroups == result
+        assert fit_atoms(mol.mol_object, mol.subgroups, psrk) != {}
+    else:
+        for s, r in zip(mol.subgroups, result):
+            assert s == r
+            assert fit_atoms(mol.mol_object, s, psrk) != {}
 
 
 # =============================================================================

@@ -2,7 +2,7 @@ group|detection_smarts|smarts|contribute|composed|molecular_weight
 CH3|[CX4H3]||"{""CH3"": 1}"|n|15.035
 CH2|[CX4H2;!R]||"{""CH2"": 1}"|n|14.027
 CH|[CX4H;!R]||"{""CH"": 1}"|n|13.019
-C|[CX4H0]||"{""C"": 1}"|n|12.011
+C|[CX4H0;!R]||"{""C"": 1}"|n|12.011
 CH2=CH|[CH2]=[CH]||"{""CH2=CH"": 1}"|n|27.046
 CH=CH|[CH;!R]=[CH;!R]||"{""CH=CH"": 1}"|n|26.038
 CH2=C|[CH2]=[CH0;!R]||"{""CH2=C"": 1}"|n|26.038
@@ -159,20 +159,20 @@ PO3 (Phospite)|[PX3H0](-[OH0]-[#6])(-[OH0]-[#6])-[OH0]-[#6]|[PX3H0](-[OH0])(-[OH
 PHO3 (Phosponate)|[PX4H1](=[OH0])(-[OH0]-[#6])-[OH0]-[#6]|[PX3H1](=[OH0])(-[OH0])-[OH0]|"{""PHO3 (Phosponate)"": 1}"|n|79.9788
 PO3 (Phosponate)|[PX4H0](=[OH0])(-[OH0]-[#6])-[OH0]-[#6]|[PX3H0](=[OH0])(-[OH0])-[OH0]|"{""PO3 (Phosponate)"": 1}"|n|78.971
 PHO4 (Phospate)|[PX4H0](=[OH0])(-[OH1])(-[OH0]-[#6])-[OH0]-[#6]|[PX4H0](=[OH0])(-[OH1])(-[OH0])-[OH0]|"{""PHO4 (Phospate)"": 1}"|n|95.9778
-PO4 (Phospate)|[PX4H0](=[OH0])(-[OH0]-[#6])(-[OH0]-[#6])-[OH0]-[#6]|[PX4H0](=[OH0])(-[OH0])(-[OH0])-[OH0]|"{""PHO4 (Phospate)"": 1}"|n|94.97
-aC-PO4
-aC-P
-CO3 (Carbonate)
-C2H3O
-C2H2O
-C2HO
-CH2 (cyclic)
-CH (cyclic)
-C (cyclic)
-CH=CH (cyclic)
-CH=C (cyclic)
-C=C (cyclic)
-CH2=C (cyclic)
+PO4 (Phospate)|[PX4H0](=[OH0])(-[OH0]-[#6])(-[OH0]-[#6])-[OH0]-[#6]|[PX4H0](=[OH0])(-[OH0])(-[OH0])-[OH0]|"{""PO4 (Phospate)"": 1}"|n|94.97
+aC-PO4|[cH0][PX4H0](=[OH0])(-[OH0]-[#6])(-[OH0]-[#6])-[OH0]-[#6]|[cH0][PX4H0](=[OH0])(-[OH0])(-[OH0])-[OH0]|"{""aC-PO4"": 1, ""aC except as above"": -1, ""PO4 (Phospate)"": -1}"|y|106.981
+aC-P|[cH0][PX3H0]||"{""aC-P"": 1, ""aC except as above"": -1, ""P (Phospine)"": -1}"|y|42.985
+CO3 (Carbonate)|[CH0](=O)(-[OH0]-[#6])(-[OH0]-[#6])||"{""CO3 (Carbonate)"": 1}"|y|60.008
+C2H3O|[CH2]([O]1)[CH]1||"{""C2H3O"": 1, ""CH2O"": -1, ""CH (cyclic)"": -1}"|y|43.0444
+C2H2O|[CH]([O]1)[CH]1||"{""C2H2O"": 1, ""CHO"": -1, ""CH (cyclic)"": -1}"|y|42.0366
+C2HO|[CH0]([O]1)[CH]1||"{""HCOC"": 1, ""CHO"": -1, ""C (cyclic)"": -1}"|n|41.0288
+CH2 (cyclic)|[CX4H2;R]||"{""CH2 (cyclic)"": 1}"|n|14.027
+CH (cyclic)|[CX4H;R]||"{""CH (cyclic)"": 1}"|n|13.019
+C (cyclic)|[CX4H0;R]||"{""C (cyclic)"": 1}"|n|12.011
+CH=CH (cyclic)|[CH;R]=[CH;R]||"{""CH=CH (cyclic)"": 1}"|n|26.038
+CH=C (cyclic)|[CH;R]=[CH0;R]||"{""CH=C (cyclic)"": 1}"|n|25.03
+C=C (cyclic)|[CH0;R]=[CH0;R]||"{""C=C (cyclic)"": 1}"|n|24.022
+CH2=C (cyclic)|[CH2]=[CH0;R]||"{""CH2=C (cyclic)"": 1}"|n|26.038
 NH (cyclic)
 N (cyclic)
 CH=N (cyclic)
