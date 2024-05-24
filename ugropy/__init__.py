@@ -4,6 +4,7 @@ from . import constants, properties, writers
 from .core import get_groups, instantiate_mol_object
 from .fragmentation_models.fragmentation_model import FragmentationModel
 from .fragmentation_models.models import (
+    abdulelah_gani_primary,
     constantinou_gani_primary,
     joback,
     psrk,

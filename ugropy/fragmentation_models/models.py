@@ -126,6 +126,18 @@ joback = PropertiesEstimator(
     properties_contributions=_jo_props,
 )
 
+# =============================================================================
+# Abdulelah and Gani
+# =============================================================================
+# Primary structures
+_ag_p = _csvs / "abdulelah_gani" / "primary"
+
+_ag_sg = _rd(_ag_p / "primary.csv", "group")
+# _ag_problems = _rd(_ag_p / "problematic_structures.csv", "smarts")
+# _ag_hide = _rd(_ag_p / "hideouts.csv", "group")
+# _ag_props = _rd(_ag_p / "properties_prymary_contrib.csv", "group")
+
+abdulelah_gani_primary = PropertiesEstimator(subgroups=_ag_sg)
 
 # =============================================================================
 # Constantinou and Gani
