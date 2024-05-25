@@ -81,6 +81,8 @@ def get_groups(
     if mol_subgroups_corrected == {}:
         # No functional groups were detected for the molecule. Example: H2O2
         return Fragmentation({}, mol_object, model)
+    
+    print(mol_subgroups_corrected)
 
     # =========================================================================
     # Check the presence of composed structures and check if the molecular
